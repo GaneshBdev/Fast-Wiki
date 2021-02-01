@@ -2,7 +2,7 @@
 A Wikipedia Search
 
 # API used
-wikipedia api
+Wikipedia API
 
 # Created Using
   * HTML
