@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fast Wiki</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class = "container-fluid" id="main">
+      <div class="title-and-search">
+      <h1 id="title">Fast Wiki</h1>
+      by <a href="https://ganeshmkumar.github.io" target='_blank'>GaneshB</a> <span class="fa fa-smile-o"></span>
+      <div class="row" id="search-box">
+        <div class="col-md-6 col-md-offset-3">
+          <input type="text" class="form-control" placeholder="Search for any topic .."><br>
+          or <a href='http://en.wikipedia.org/wiki/Special:Random' target='_blank'>Any Random Article</a>
+        </div>
+
+      </div>
+      </div>
+      <div class="row" id="result">
+        <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+
+        </div>
+      </div>
+      <div class="row" id="error">
+          <span class="fa fa-warning"></span><span> Topic not found</span>
+      </div>
+    </div>
+  </body>
+
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src = "script.js"></script>
+</html>
+
+<!--<a href='http://en.wikipedia.org/wiki/Special:Random' target='_blank' ><button id = "random" class = "btn btn-warning-->

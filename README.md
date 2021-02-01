@@ -1,2 +1,15 @@
-# Fast-Wiki
-A Web Portal which uses Wikipedia API to fetch content for the input query from Wikipedia. Moreover, this portal can also fetch random articles.
+# WikiFast
+A Wikipedia Search
+
+# API used
+wikipedia api
+
+# Created Using
+  * HTML
+  * CSS
+  * BOOTSTRAP
+  * JAVASCRIPT
+  * JQUERY
+
+# Preview
+<a href="http://ganeshmkumar.github.io/WikiFast">Wiki Fast</a>
